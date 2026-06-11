@@ -1,4 +1,4 @@
-export const SOLUTION_MODES = ['hotel', 'advertisement_agency', 'secretary'] as const;
+export const SOLUTION_MODES = ['hotel', 'advertisement_agency', 'secretary', 'sales'] as const;
 
 export type SolutionMode = (typeof SOLUTION_MODES)[number];
 
